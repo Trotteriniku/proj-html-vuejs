@@ -1,6 +1,6 @@
 <template>
     <!-- container totale -->
-    <nav class="container">
+    <nav class="container " >
 
         <div class="row align-items-center align-content-center justify-content-between py-4 ">
         <!-- logo -->

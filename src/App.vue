@@ -1,5 +1,11 @@
 <template>
-  <HeaderComponent/>
+  <section>
+    <HeaderComponent/>
+    <HeroComponent/>
+  </section>
+  
+  <main>
+  </main>
 </template>
 
 <script>
@@ -9,6 +15,8 @@ import HalfCardComponent from './components/HalfCardComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import CardNComponent from './components/CardNComponent.vue';
 import CardsComponentList from './components/CardsComponentList.vue';
+import HeroComponent from './components/HeroComponent.vue'
+
 
   export default {
     
@@ -20,6 +28,8 @@ import CardsComponentList from './components/CardsComponentList.vue';
     HalfCardComponent,
     HeaderComponent,
     NavComponent,
+    HeroComponent,
+
 },
     data(){
       return{

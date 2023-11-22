@@ -1,27 +1,25 @@
 <template>
     <!-- header posizionato in sticky per funzioni future -->
-    <header class=" position-sticky ">
-        <NavComponent/>
-        <!-- <HeroComponent/> -->
+    <header class=" sticky-top bg-light" >
+        <NavComponent />
+        
     </header>
-    
+        <HeroComponent/>
 </template>
 
 <script>
 import NavComponent from './NavComponent.vue'
-import HeroComponent from './HeroComponent.vue'
 
     export default {
         name:'HeaderComponent',
         components:{
     NavComponent,
-    HeroComponent,
 }
     }
 </script>
 
 <style lang="scss" scoped>
     header{
-        height: 112px;
+        // height: 112px
     }
 </style>
