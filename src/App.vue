@@ -9,6 +9,7 @@ import HalfCardComponent from './components/HalfCardComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import CardNComponent from './components/CardNComponent.vue';
 import CardsComponentList from './components/CardsComponentList.vue';
+
   export default {
     
     name:'App',

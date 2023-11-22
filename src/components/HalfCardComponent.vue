@@ -6,7 +6,12 @@
 
 <script>
     export default {
-        name:'HalfCardComponent'
+        name:'HalfCardComponent',
+        data(){
+            return{
+                
+            }
+        }
     }
 </script>
 

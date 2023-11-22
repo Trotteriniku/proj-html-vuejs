@@ -2,17 +2,21 @@
     <!-- header posizionato in sticky per funzioni future -->
     <header class=" position-sticky ">
         <NavComponent/>
+        <!-- <HeroComponent/> -->
     </header>
     
 </template>
 
 <script>
 import NavComponent from './NavComponent.vue'
+import HeroComponent from './HeroComponent.vue'
+
     export default {
         name:'HeaderComponent',
         components:{
-            NavComponent
-        }
+    NavComponent,
+    HeroComponent,
+}
     }
 </script>
 
