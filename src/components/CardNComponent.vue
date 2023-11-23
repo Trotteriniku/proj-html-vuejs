@@ -49,8 +49,10 @@
 
     .cardborder{
       border: 1px dashed rgba(0, 0, 0, 0.24);
-      // border-bottom: dashed;
-      // border-top: dashed;
+     
+    //   background-image: gradient_bottom_color: hsla(var(--awb-color5-h),var(--awb-color5-s),var(--awb-color5-l),calc( var(--awb-color5-a) - 40% )) ;
+      
+    // --image_rollover_icon_color: var(--awb-color1);
     }
   }
 </style>

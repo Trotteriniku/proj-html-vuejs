@@ -86,8 +86,21 @@
       <CardNComponent/>
       <a class="btn btn-my2-outline-success  my-btn w-25 px-4 py-3 mt-5 " ><span class="mx-3 fw-medium  ">Get a Consultation</span></a>
     </section>
-    <section>
-      
+    <!-- Client's benefits -->
+    <section style="background-color: #f4f4f6;">
+        <div class="container" style="padding-top: 6%; padding-bottom: 4%;">
+          <div class="row">
+            <div class="col-6 my-5 pt-5 p-0  ">
+              <h2 style="font-size: 54px;">We Boost Our Clients’ Bottom Line by Optimizing Their Growth Potential.</h2>
+              <p style="font-size: 27px;" class="my-4">Quisque aliquet, libero consequat elementum convallis, erat risus imperdiet pellentesque sem neque eget.</p>
+              <a class="btn btn-my2-outline-success  my-btn mt-3 px-4 py-3 " ><span class="mx-3 fw-medium  ">Why Work With Us</span></a>
+            </div>
+
+            <div class="col-6 p-0  ">
+            <img class=" p-4 w-100 " src="./assets/imagesNotDinamic/we-boost-our-clients-800x732.jpg" alt="our-client" style="border-radius: 5%;">
+            </div>
+          </div>
+        </div>
     </section>
   </main>
 </template>
