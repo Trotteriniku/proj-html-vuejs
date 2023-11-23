@@ -1,10 +1,19 @@
 <template>
+  <!-- hero and nav sect -->
   <section>
     <HeaderComponent/>
     <HeroComponent/>
   </section>
   
   <main>
+    <!-- attributes cards sect -->
+    <section>
+      <CardsComponentList/>
+    </section>
+    <section>
+      
+    </section>
+    
   </main>
 </template>
 
@@ -29,7 +38,6 @@ import HeroComponent from './components/HeroComponent.vue'
     HeaderComponent,
     NavComponent,
     HeroComponent,
-
 },
     data(){
       return{

@@ -1,7 +1,7 @@
 <template>
     <div  id="intro">
         <div class="container p-0">
-            <div class="row" style="padding-top: 100px; padding-bottom: 100px;">
+            <div class="row" style="padding-top: 100px; padding-bottom: 50px;">
                 <div class="col-6 p-0 ">
                     <h1 class="text-light mb-3">Unlock Your Online Growth Potential</h1>
                     <p class="text-light mb-5">Online marketing to secure customer retention, leads, and sales. We focus on the bigger picture.</p>
@@ -58,7 +58,7 @@ import { store } from '../data/store';
             --bs-btn-border-color: #212529;
             --bs-btn-hover-color: #fff;
             --bs-btn-hover-bg: transparent;
-            --bs-btn-hover-border-color: #212529;
+            --bs-btn-hover-border-color: #fff;
             --bs-btn-focus-shadow-rgb: 33, 37, 41;
             --bs-btn-active-color: #fff;
             --bs-btn-active-bg: #212529;
