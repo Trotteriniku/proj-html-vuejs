@@ -12,7 +12,7 @@
     </section>
 
     <!-- brand section -->
-    <section class="container">
+    <section class="container px-0" style="padding-bottom: 7%;">
       <div class=" row flex-column text-center w-100 ">
         <!-- brand info -->
         <div>
@@ -60,8 +60,23 @@
 
       </div>
     </section>
-
-    
+    <!-- Marketing consultant expert reference -->
+    <section class="container p-2 position-sticky ">
+      <div class="w-100 bg-white rounded-3 row mark-expert p-3 align-items-center ">
+        <div class=" rounded-circle overflow-hidden facelogo p-0 ms-5 col-auto" >
+          <img src="./assets/imagesNotDinamic/marketing-expert-cta.png" alt="marketing-expert">
+        </div>
+        <div class="col-auto">
+          <div class="fw-medium" style="font-size: 20px;">Sandy Reiff</div>
+          <p style="font-size: 14px;">Marketing Consultant Expert</p>
+        </div>
+        <h4 class="col-5 m-0 ps-5" style="font-size: 24px;">Drive Leads and Sales with Avada</h4>
+        <div class="col-auto d-flex justify-content-center mx-5">
+          <a class="btn btn-my-outline-success my-btn w-100 py-3 px-4 rounded-3 " style="font-size: 18px;" ><span class="mx-3 fw-medium "><i class="fa-solid fa-phone"></i>(555) 802-1234</span></a>
+        </div>
+      </div>
+        
+    </section>
     
   </main>
 </template>
@@ -117,5 +132,33 @@ import HeroComponent from './components/HeroComponent.vue'
 </script>
 
 <style lang="scss" scoped>
+  .facelogo{
+      width: 62px;
+      height: 62px;
+      img{
+        width: 62px;
+        height: 62px;
+          // width: 100%;
+      }
+  }
+  .mark-expert{
+    box-shadow: 0px 20px 30px 0px rgba(128, 128, 128, 0.452);
+  }
 
+  .btn-my-outline-success{
+    --bs-btn-color: #F86011;
+    --bs-btn-border-color: $-my-primary ;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F86011;
+    --bs-btn-hover-border-color: #F86011;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F86011;
+    --bs-btn-active-border-color: #F86011;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F86011;
+    --bs-btn-bg: #f862121A;
+    --bs-btn-disabled-border-color: #F86011;
+    --bs-gradient: none;
+}
 </style>
