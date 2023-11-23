@@ -10,9 +10,58 @@
     <section>
       <CardsComponentList/>
     </section>
-    <section>
-      
+
+    <!-- brand section -->
+    <section class="container">
+      <div class=" row flex-column text-center w-100 ">
+        <!-- brand info -->
+        <div>
+            <h2 style="font-size: 54px;">
+              Some Brands We Work With
+            </h2>
+            <p style="font-size: 24px; margin-bottom: 20px;">
+              Quisque aliquet, libero consequat elementum convallis.
+            </p>
+        </div>
+        <!-- brand images -->
+        <div class="d-flex flex-row justify-content-between p-0 mt-4">
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/abstract.png" alt="Abstacrt brand" style="max-width: 148px;">
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/cglobal.png" alt="cglobal brand" style="max-width: 148px;">
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/next.png" alt="next brand" style="max-width: 148px;">
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/hemisferio.png" alt="hemisferio brand" style="max-width: 148px;">
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/spaces.png" alt="spaces brand" style="max-width: 148px;">
+            </a>
+          </span>
+          <span>
+            <a href="">
+              <img src="./assets/imagesNotDinamic/digitalbox.png" alt="digitalbox brand" style="max-width: 148px;">
+            </a>
+          </span>
+          
+        </div>
+
+      </div>
     </section>
+
+    
     
   </main>
 </template>
@@ -41,7 +90,27 @@ import HeroComponent from './components/HeroComponent.vue'
 },
     data(){
       return{
-        
+        // brandImgList:
+        // [
+        //   {
+        //     images:'./assets/imagesNotDinamic/abstract.png',
+        //   },
+        //   {
+        //     images:'./assets/imagesNotDinamic/cglobal.png.png',
+        //   },
+        //   {
+        //     images:'./assets/imagesNotDinamic/next.png.png',
+        //   },
+        //   {
+        //     images:'./assets/imagesNotDinamic/hemisferio.png.png',
+        //   },
+        //   {
+        //     images:'./assets/imagesNotDinamic/spaces.png.png',
+        //   },
+        //   {
+        //     images:'./assets/imagesNotDinamic/digitalbox.png.png',
+        //   },
+        // ]
       }
     }
   }
