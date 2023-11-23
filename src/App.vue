@@ -182,7 +182,7 @@
         
     </section>
     <!-- team marketing expert -->
-    <section class="container p-0">
+    <section class="container p-0" style="padding-bottom: 4%;">
       
       <div class="row">
           <div class="col-6">
@@ -196,9 +196,45 @@
             <p style="font-size: 14px;">Marketing Consultant – Abstract</p>
           </div>
         </div>
+    </section >
+    <!-- marketing resources -->
+    <section style="background-color: #f4f4f6; padding-bottom: 6%; padding-top: 6%;" >
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-baseline ">
+            
+            
+          <h2 class="w-50" style="font-size: 54px;">Marketing Resources: Insider Advice on How to Increase Online Sales</h2>
+      
+          <button class="btn btn-my2-outline-success align-self-end my-btn mt-3 px-4 py-3 " style="min-width: 100px;" ><span class="mx-3 fw-medium  ">Why Work With Us</span></button>
+        </div> 
+
+
+          <div class="row pt-5">
+            <div class="col-4">
+              <div>
+                <img src="./assets/imagesNotDinamic/blog-posts-6-600x400.jpg " alt="" class="w-100">
+              </div>
+              <h2 class="pt-4">Marketing Tips And Tricks For Your Website</h2>
+            </div>
+
+            <div class="col-4">
+              <div>
+                <img src="./assets/imagesNotDinamic/blog-posts-5-600x400.jpg" alt="" class="w-100">
+              </div>
+              <h2 class="pt-4">How to Write Stunning Blog Post Titles</h2>
+            </div>
+
+            <div class="col-4">
+              <div>
+                <img src="./assets/imagesNotDinamic/blog-posts-4-600x400.jpg" alt="" class="w-100">
+              </div>
+              <h2 class="pt-4">Techniques to Reduce Facebook Ads Spend</h2>
+            </div>
+          </div>
+
+          
+        </div>
     </section>
-
-
   </main>
 </template>
 
