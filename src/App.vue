@@ -140,33 +140,33 @@
       </div>
     </section>
     <!-- Awards -->
-    <section  style="background-color: #f4f4f6; padding-bottom: 4%;">
+    <section  style="background-color: #f4f4f6; padding-bottom: 4%; margin-bottom: 4%;">
       <div  class="container text-center p-0">
         <h3 style="font-size: 32px;">Awards</h3>
-
+      <!-- Awards image -->
         <div class="row">
-          <div class="col-3 mt-5 ">
+          <div class="col-3 mt-5 p-0">
             <div>
               <img src="./assets/imagesNotDinamic/award-a-200x191.png" alt="">
             </div>
             <p style="font-size: 24px;" >Winner Seo Master MAGT Smart Start Award 2017</p>
           </div>
 
-          <div class="col-3 mt-5 ">
+          <div class="col-3 mt-5 p-0">
             <div>
               <img src="./assets/imagesNotDinamic/award-b-200x191.png" alt="">
             </div>
             <p style="font-size: 24px;">Top Social Media Agencies Next Partner 2018</p>
           </div>
 
-          <div class="col-3 mt-5">
+          <div class="col-3 mt-5 p-0">
             <div>
               <img src="./assets/imagesNotDinamic/award-c-200x191.png" alt="">
             </div>
             <p style="font-size: 24px;">10 Fastest Growing Abstract Solution Providers 2019</p>
           </div>
 
-          <div class="col-3 mt-5  ">
+          <div class="col-3 mt-5 p-0 ">
             <div>
               <img src="./assets/imagesNotDinamic/award-d-200x191.png" alt="">
             </div>
@@ -175,12 +175,30 @@
 
          
         </div>
-
+        
+        
       </div>
+
         
     </section>
+    <!-- team marketing expert -->
+    <section class="container p-0">
+      
+      <div class="row">
+          <div class="col-6">
+            <img class="w-100  rounded-3"  src="./assets/imagesNotDinamic/large-testimonial-800x778.jpg" alt="" style="box-shadow: 0px 20px 30px 0px rgba(128, 128, 128, 0.452);
+">
+            
+          </div>
+          <div class="col-6 mt-3 p-5">
+            <h3 class="w-75" style="font-size: 32px;">“The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approach.”</h3>
+            <div style="font-size: 20px;" class="mt-5">Kate Schadler</div>
+            <p style="font-size: 14px;">Marketing Consultant – Abstract</p>
+          </div>
+        </div>
+    </section>
 
-    
+
   </main>
 </template>
 
