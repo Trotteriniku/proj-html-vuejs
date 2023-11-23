@@ -10,7 +10,6 @@
     <section>
       <CardsComponentList/>
     </section>
-
     <!-- brand section -->
     <section class="container px-0" style="padding-bottom: 7%;">
       <div class=" row flex-column text-center w-100 ">
@@ -102,6 +101,86 @@
           </div>
         </div>
     </section>
+    <!-- Relationships -->
+    <section  style="background-color: #f4f4f6; padding-bottom: 4%;">
+      <div class="container p-0">
+        <div class="row ">
+          <div class="col-6 pe-4 mt-4">
+            <h3 class="my-3" style="font-size: 32px;">We Build Relationships</h3>
+            <p class="mb-5" style="font-size: 20px;">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</p>
+            <h3 class="my-3 mt-5 pt-5" style="font-size: 32px;">Proprietary Processes</h3>
+            <p class="my-4 " style="font-size: 20px;">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</p>
+          </div>
+          <div class="col-6 ps-5">
+            <div class="d-flex my-5">
+              <img src="./assets/imagesNotDinamic/image2.png" alt="">
+              <div>
+                <h4 class="fw-medium">Accountability</h4>
+                <div style="font-size: 20px;">Curabitur ac leo nunc vestibulum</div>
+              </div>
+              
+            </div>
+            <div class="d-flex my-5">
+              <img src="./assets/imagesNotDinamic/image3.png" alt="">
+              <div>
+                <h4 class="fw-medium">Accountability</h4>
+                <div style="font-size: 20px;">Curabitur ac leo nunc vestibulum</div>
+              </div>
+            </div>
+            <div class="d-flex my-5">
+              <img src="./assets/imagesNotDinamic/image4.png" alt="">
+              <div>
+                <h4 class="fw-medium">Accountability</h4>
+                <div style="font-size: 20px;">Curabitur ac leo nunc vestibulum</div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Awards -->
+    <section  style="background-color: #f4f4f6; padding-bottom: 4%;">
+      <div  class="container text-center p-0">
+        <h3 style="font-size: 32px;">Awards</h3>
+
+        <div class="row">
+          <div class="col-3 mt-5 ">
+            <div>
+              <img src="./assets/imagesNotDinamic/award-a-200x191.png" alt="">
+            </div>
+            <p style="font-size: 24px;" >Winner Seo Master MAGT Smart Start Award 2017</p>
+          </div>
+
+          <div class="col-3 mt-5 ">
+            <div>
+              <img src="./assets/imagesNotDinamic/award-b-200x191.png" alt="">
+            </div>
+            <p style="font-size: 24px;">Top Social Media Agencies Next Partner 2018</p>
+          </div>
+
+          <div class="col-3 mt-5">
+            <div>
+              <img src="./assets/imagesNotDinamic/award-c-200x191.png" alt="">
+            </div>
+            <p style="font-size: 24px;">10 Fastest Growing Abstract Solution Providers 2019</p>
+          </div>
+
+          <div class="col-3 mt-5  ">
+            <div>
+              <img src="./assets/imagesNotDinamic/award-d-200x191.png" alt="">
+            </div>
+            <p style="font-size: 24px;">National Excellence Agencie Award Winner 2020</p>
+          </div>
+
+         
+        </div>
+
+      </div>
+        
+    </section>
+
+    
   </main>
 </template>
 
