@@ -235,6 +235,26 @@
           
         </div>
     </section>
+    <!-- Let’s Make Things Happen -->
+    <section style="background-color: black;">
+      <div class="container p-0">
+        <div class="row justify-content-center p-5">
+          <div class="col-6 px-5 me-5">
+            <h1 style="font-size: 72px;" class="text-light">Let’s Make Things Happen</h1>
+            <p style="font-size: 30px;"  class="text-light">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer consectetur.</p>
+            <div style=" border: 1px dashed rgba(0, 0, 0, 0.24); max-height: 10px;"></div>
+            <em style="font-size: 22px;"  class="text-light mb-4">“The team at Avada Marketing Consultant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth due to their progressive approach.”</em>
+            <div style="font-size: 20px;"  class="text-light mt-4">George Anderson</div>
+            <p style="font-size: 14px;"  class="text-light">Digitalbox CEO</p>
+          </div>
+
+            <HalfInputCardComponent/>
+        
+          
+        </div>
+      </div>
+
+    </section>
   </main>
 </template>
 
@@ -246,6 +266,7 @@ import FooterComponent from './components/FooterComponent.vue';
 import CardNComponent from './components/CardNComponent.vue';
 import CardsComponentList from './components/CardsComponentList.vue';
 import HeroComponent from './components/HeroComponent.vue'
+import HalfInputCardComponent from './components/HalfInputCardComponent.vue';
 
 
   export default {
@@ -259,6 +280,7 @@ import HeroComponent from './components/HeroComponent.vue'
     HeaderComponent,
     NavComponent,
     HeroComponent,
+    HalfInputCardComponent
 },
     data(){
       return{
