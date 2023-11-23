@@ -61,7 +61,7 @@
       </div>
     </section>
     <!-- Marketing consultant expert reference -->
-    <section class="container p-2 position-sticky ">
+    <section class="container p-2 position-sticky top-0 z-1   ">
       <div class="w-100 bg-white rounded-3 row mark-expert p-3 align-items-center ">
         <div class=" rounded-circle overflow-hidden facelogo p-0 ms-5 col-auto" >
           <img src="./assets/imagesNotDinamic/marketing-expert-cta.png" alt="marketing-expert">
@@ -77,7 +77,18 @@
       </div>
         
     </section>
-    
+     <!-- Trusted -->
+    <section class="container px-0 text-center" style="padding-top: 6%; padding-bottom: 6%;">
+      <div class=" container-sm text-center pb-4">
+          <h2 style="font-size: 54px;">Trusted by Leading Organisations</h2>
+      </div>
+        
+      <CardNComponent/>
+      <a class="btn btn-my2-outline-success  my-btn w-25 px-4 py-3 mt-5 " ><span class="mx-3 fw-medium  ">Get a Consultation</span></a>
+    </section>
+    <section>
+      
+    </section>
   </main>
 </template>
 
@@ -161,4 +172,21 @@ import HeroComponent from './components/HeroComponent.vue'
     --bs-btn-disabled-border-color: #F86011;
     --bs-gradient: none;
 }
+
+.btn-my2-outline-success{
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: $-my-primary ;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ca4700;
+    --bs-btn-hover-border-color: #F86011;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F86011;
+    --bs-btn-active-border-color: #F86011;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F86011;
+    --bs-btn-bg: #F86011;
+    --bs-btn-disabled-border-color: #F86011;
+    --bs-gradient: none;
+    }
 </style>
