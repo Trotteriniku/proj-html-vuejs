@@ -255,6 +255,10 @@
       </div>
 
     </section>
+
+    <section class="container p-0">
+      <FooterComponent/>
+    </section>
   </main>
 </template>
 

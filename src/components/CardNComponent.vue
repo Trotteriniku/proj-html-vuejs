@@ -1,7 +1,9 @@
 <template>
     <div class="container fs-5 p-0 d-flex ">
       <div class="card border-0 p-3">
-        <img src="../assets/imagesNotDinamic/case-studies-1.jpg" class="" alt="">
+       
+          <img src="../assets/imagesNotDinamic/case-studies-1.jpg" class=" position-relative " alt="">
+          <div class=" position-absolute hoverback"></div>
         <div class="card-body p-0 pt-3">
           <p class="card-text fw-medium" style="font-size: 32px; line-height: 1.3;">How Spaces attracted five million visitors by improving the content</p>
         </div>
@@ -49,7 +51,17 @@
 
     .cardborder{
       border: 1px dashed rgba(0, 0, 0, 0.24);
+      background: rgb(142,85,55);
+      background: linear-gradient(0deg, rgba(142,85,55,0.9051995798319328) 46%, rgba(255,255,255,0) 100%);
+    
+    .hoverback{
+      background: rgb(142,85,55); 
+      // background-image: linear-gradient(0deg, rgba(142,85,55,0.9051995798319328) 46%, rgba(255,255,255,0) 100%);
+      background-color: red;
+
      
+      z-index: 10000;
+    }
     //   background-image: gradient_bottom_color: hsla(var(--awb-color5-h),var(--awb-color5-s),var(--awb-color5-l),calc( var(--awb-color5-a) - 40% )) ;
       
     // --image_rollover_icon_color: var(--awb-color1);
